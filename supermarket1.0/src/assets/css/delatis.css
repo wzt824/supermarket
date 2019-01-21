@@ -1,0 +1,305 @@
+body, p, ul, ol, dl, dd, img, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: #f0f0f0;
+}
+
+html {
+  font-size: 26.67vw;
+}
+
+body {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.delatisHeader {
+  width: 100%;
+  box-sizing: border-box;
+  background: white;
+  padding: .14rem;
+  display: flex;
+}
+.delatisHeader .icon {
+  width: .38rem;
+  height: .38rem;
+}
+.delatisHeader .spanTxt {
+  flex: 1;
+  color: #35383f;
+  font-size: .2rem;
+  line-height: .38rem;
+  text-align: center;
+}
+.delatisHeader .spanTxt p {
+  text-align: center;
+  width: 95%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.delatisHeader .right1 {
+  margin-left: .15rem;
+}
+
+section {
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.bannerD {
+  width: 100%;
+  height: 2.84rem;
+  position: relative;
+}
+.bannerD img {
+  height: 2.84rem !important;
+}
+.bannerD .img-fix {
+  margin-top: -31% !important;
+}
+
+.dPriceBox {
+  width: 100%;
+  padding: .1rem;
+  color: #35383f;
+  background: white;
+  box-sizing: border-box;
+}
+.dPriceBox h5 {
+  display: flex;
+  font-size: .22rem;
+}
+.dPriceBox h5 .dCar {
+  width: .28rem;
+  height: .22rem;
+  margin-right: .08rem;
+}
+.dPriceBox p {
+  font-size: .16rem;
+  color: #e96113;
+}
+.dPriceBox p span {
+  font-size: .28rem;
+  font-weight: 600;
+}
+
+.serve {
+  width: 100%;
+  padding: .1rem;
+  color: #35383f;
+  background: white;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.serve h4 {
+  display: flex;
+  font-size: .16rem;
+  line-height: .22rem;
+}
+.serve h4 .super {
+  width: 1rem;
+  height: .22rem;
+  margin-right: .1rem;
+}
+.serve p {
+  color: #878988;
+  line-height: .5rem;
+  font-size: .15rem;
+}
+.serve .serveBox {
+  display: flex;
+  line-height: .5rem;
+  border-top: 1px solid #efeeec;
+}
+.serve .serveBox span {
+  display: flex;
+}
+.serve .serveBox span .serve2 {
+  width: .2rem;
+  height: .2rem;
+  margin-right: .02rem;
+  vertical-align: middle;
+  margin-top: .15rem;
+}
+.serve .serveBox span:first-child {
+  margin-right: .3rem;
+}
+
+.dicuss {
+  width: 100%;
+  height: .58rem;
+  background: white;
+  padding: .1rem;
+  color: #35383f;
+  font-size: .17rem;
+  line-height: .38rem;
+  box-sizing: border-box;
+  margin: .15rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.dicuss .dicBox {
+  display: flex;
+  color: #35383f;
+}
+.dicuss .dicBox img {
+  width: .7rem;
+  height: .2rem;
+  margin: .09rem .02rem 0;
+}
+
+.publicProduct {
+  display: block;
+  padding: 0.1rem;
+  width: 1.04rem;
+  float: left;
+  position: relative;
+}
+.publicProduct .publicImg {
+  width: 1.04rem;
+  height: 1.04rem;
+}
+.publicProduct .mouldnews {
+  width: 1.04rem;
+  height: .36rem;
+  padding-top: .11rem;
+  text-align: left;
+}
+.publicProduct .mouldnews .moulTitle {
+  display: block;
+  height: .36rem;
+  margin-bottom: .1rem;
+  color: #21292b;
+  font-size: .14rem;
+  line-height: .18rem;
+}
+.publicProduct .moulprice {
+  width: 1.04rem;
+  height: .3rem;
+  position: relative;
+}
+.publicProduct .moulprice .worldoriginal {
+  display: block;
+  color: #ddd;
+  text-decoration: line-through;
+  font-size: .12rem;
+  line-height: .12rem;
+  position: absolute;
+}
+.publicProduct .moulprice .promo-price {
+  display: block;
+  color: #ff712b;
+  font-size: .16rem;
+  line-height: 1.2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.publicProduct .spanAdd {
+  display: block;
+  font-size: .15rem;
+  padding: .01rem .05rem;
+  border: 1px solid #ff712b;
+  color: #ff712b;
+  position: absolute;
+  bottom: .1rem;
+  right: .1rem;
+  z-index: 9;
+}
+
+.youLike {
+  width: 100%;
+  color: #35383f;
+  background: white;
+  overflow: hidden;
+  margin-bottom: .15rem;
+}
+.youLike h1 {
+  font-size: .17rem;
+  line-height: .6rem;
+  color: #393c43;
+  text-indent: .1rem;
+  border-bottom: 1px solid #eee;
+}
+
+table {
+  width: 100%;
+  padding: .1rem;
+}
+table tr {
+  width: 100%;
+  height: .52rem;
+  box-sizing: content-box;
+}
+table tr td {
+  text-indent: .1rem;
+  font-size: .14rem;
+  border-bottom: 1px solid #eeeeee;
+}
+table tr .td {
+  width: 1rem;
+  border-right: 1px solid #eeeeee;
+}
+table tr:last-child td {
+  border-bottom: 1px solid transparent;
+}
+
+.param {
+  margin-bottom: 0;
+}
+
+.backTop {
+  display: block;
+  width: .4rem;
+  height: .4rem;
+  position: fixed;
+  right: .2rem;
+  bottom: 1rem;
+}
+
+.delatisFooter {
+  width: 100%;
+  height: .48rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-top: .01rem solid #dbdbdb;
+  font-size: .12rem;
+  display: flex;
+  justify-content: space-between;
+}
+.delatisFooter a {
+  display: flex;
+  padding: 0 .235rem;
+  align-items: center;
+  color: #353535;
+}
+.delatisFooter a i {
+  display: block;
+  font-size: 0.26rem !important;
+  margin-bottom: 0.02rem;
+}
+.delatisFooter .addCarts {
+  background: #f46c18;
+  color: white;
+}
+
+/*# sourceMappingURL=delatis.css.map */

@@ -1,0 +1,178 @@
+body, p, ul, ol, dl, dd, img, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: #f5f5f5;
+}
+
+html {
+  font-size: 26.67vw;
+}
+
+body {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.loginHeader {
+  width: 100%;
+  height: .75rem;
+  background: white;
+  color: #656565;
+  font-size: .2rem;
+  padding: 0 .25rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.loginHeader .off {
+  width: .22rem;
+  height: .22rem;
+}
+.loginHeader .title {
+  font-size: .23rem;
+  color: #222;
+}
+
+
+.tabTop {
+  width: 100%;
+  padding: .185rem .23rem;
+  box-sizing: border-box;
+  font-size: .2rem;
+  line-height: .7rem;
+}
+.tabTop p {
+  height: .69rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #888888;
+  border-bottom: 1px solid #ccc;
+}
+.tabTop p span:nth-child(1) {
+  color: #e96113;
+  border-bottom: .02rem solid #e96113;
+}
+.tabTop p img {
+  width: .12rem;
+  height: .2rem;
+}
+.IDLogin {
+  width: 100%;
+  background: white;
+  margin: .18rem 0;
+  border-radius: .1rem;
+}
+.IDLogin li {
+  width: 100%;
+  height: .75rem;
+}
+.IDLogin li img {
+  width: .24rem;
+  height: .3rem;
+  float: left;
+  margin: .22rem .22rem auto .26rem;
+}
+.IDLogin li input {
+  float: left;
+  width: 2.2rem;
+  height: .75rem;
+  border: 0;
+  font-size: .18rem;
+  outline: none;
+}
+.IDLogin li .eye {
+  margin: .2rem 0;
+}
+.IDLogin li:first-child {
+  border-bottom: 1px solid #ccc;
+}
+.Dlogin {
+  width: 100%;
+}
+.Dlogin p {
+  width: 100%;
+  font-size: .16rem;
+  color: #888888;
+  text-align: right;
+}
+.Dlogin span {
+  width: 100%;
+  height: .62rem;
+  color: white;
+  background: #cccccc;
+  font-size: .2rem;
+  text-align: center;
+  line-height: .62rem;
+  border-radius: .1rem;
+  display: block;
+  margin: .17rem 0;
+}
+.Dother {
+  width: 100%;
+  margin: .4rem 0 .2rem;
+  position: relative;
+}
+.Dother .xian {
+  border: 1px solid #888;
+  width: 86%;
+  margin: 0 auto;
+}
+.Dother .other {
+  position: absolute;
+  display: block;
+  background: #f5f5f5;
+  font-size: .16rem;
+  padding: 0 .15rem;
+  color: #888;
+  top: -.09rem;
+  left: 29%;
+}
+.Dother .otherBox {
+  width: 100%;
+  margin-top: .32rem;
+  display: flex;
+  justify-content: space-around;
+}
+.Dother .otherBox img {
+  width: .55rem;
+  height: .55rem;
+}
+.temawork {
+  font-size: .16rem;
+  color: #888;
+}
+.temawork ul li {
+  width: .36rem;
+  height: .36rem;
+  float: left;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: .02rem .08rem;
+}
+
+.bigBox {
+  overflow-y: auto;
+}
+
+/*# sourceMappingURL=login.css.map */

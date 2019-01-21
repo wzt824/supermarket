@@ -1,0 +1,180 @@
+body, p, ul, ol, dl, dd, img, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: #f6f6f6;
+}
+
+html {
+  font-size: 26.67vw;
+}
+
+body {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.BigBox {
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.meHeader {
+  width: 100%;
+  height: .8rem;
+  background: url("../img/minbg.png") no-repeat;
+  background-size: 100% 1.3rem;
+  padding-top: .5rem;
+  position: relative;
+}
+.meHeader .go {
+  display: block;
+  float: right;
+  width: .7rem;
+  height: .25rem;
+  background: red;
+  font-size: .12rem;
+  color: white;
+  text-align: center;
+  line-height: .25rem;
+  border-top-left-radius: .18rem;
+  border-bottom-left-radius: .18rem;
+  position: absolute;
+  right: 0;
+  top: .1rem;
+}
+.meHeader .headMe {
+  width: 100%;
+  height: .56rem;
+}
+.meHeader .headMe .via {
+  width: .54rem;
+  height: .54rem;
+  border-radius: 50%;
+  margin: 0 .1rem 0 .15rem;
+  box-shadow: 0 0 1px 1px #ddd;
+  float: left;
+}
+.meHeader .headMe .welcome {
+  font-size: .2rem;
+  float: left;
+}
+.meHeader .headMe .welcome .grade {
+  width: .94rem;
+  height: .26rem;
+  border-radius: .2rem;
+  background: #35383f;
+  text-indent: .03rem;
+  font-size: .12rem;
+  line-height: .22rem;
+  color: white;
+  display: flex;
+}
+.meHeader .headMe .welcome .grade .vipImg {
+  width: .27rem;
+  height: .27rem;
+  float: left;
+}
+.meHeader .headMe .APPimg {
+  width: 1.04rem;
+  height: .25rem;
+  margin-right: .2rem;
+  float: right;
+  margin-top: .12rem;
+}
+
+.billMinBox {
+  width: 100%;
+  line-height: .3rem;
+  padding: .06rem .1rem;
+  font-size: .17rem;
+  color: #35383f;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+.billMinBox a {
+  color: #35383f;
+}
+
+.billBox {
+  width: 100%;
+  background: white;
+  overflow: hidden;
+  margin-bottom: .1rem;
+}
+.billBox .billUp {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.billBox .billUp .minBox {
+  display: block;
+  font-size: .14rem;
+  text-align: center;
+  color: #656565;
+}
+.billBox .billUp .minBox i {
+  font-size: .3rem;
+  display: block;
+  color: #ff811b;
+  margin: .1rem 0 .08rem 0;
+}
+.billBox .billUp .minBox .meTxt {
+  height: 0.45rem;
+  line-height: .2rem;
+}
+.billBox .billUp .minBox .txt {
+  display: block;
+  width: .3rem;
+  height: .3rem;
+  font-style: normal;
+  font-size: .14rem;
+  text-align: center;
+  line-height: .3rem;
+  color: #35383f;
+}
+
+footer {
+  width: 100%;
+  height: .48rem;
+  padding-top: .04rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-top: .01rem solid #dbdbdb;
+  font-size: .12rem;
+  display: flex;
+}
+footer a {
+  display: flex;
+  margin: 0 .235rem;
+  align-items: center;
+  flex-direction: column;
+  color: #353535;
+}
+footer a i {
+  display: block;
+  font-size: 0.26rem !important;
+  height: .26rem;
+  margin-bottom: 0.02rem;
+}
+
+/*# sourceMappingURL=me.css.map */

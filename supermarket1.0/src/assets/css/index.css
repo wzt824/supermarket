@@ -1,0 +1,351 @@
+body, p, ul, ol, dl, dd, img, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: #f6f6f6;
+}
+
+html {
+  font-size: 26.67vw;
+}
+
+body {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  padding: .06rem .175rem;
+  box-sizing: border-box;
+}
+header .headerTop {
+  width: 100%;
+  /*display: flex;*/
+  font-size: .12rem;
+  line-height: .198rem;
+  margin-bottom: .08rem;
+}
+header .headerTop .headerLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: left;
+}
+header .headerTop .headerLeft .zyg {
+  display: inline-block;
+  width: .25rem;
+  height: .3rem;
+  margin: .06rem 0;
+}
+header .headerTop .headerCen {
+  width: 59%;
+  float: left;
+  text-align: center;
+  font-size: .18rem;
+  line-height: .6rem;
+}
+header .headerTop .headerRight {
+  display: flex;
+  float: right;
+}
+header .headerTop .headerRight .headerRight1 .hym {
+  display: block;
+  width: .35rem;
+  height: .35rem;
+  background: white;
+  border: 1px solid #d1d1d1;
+  box-shadow: 0 0 .01rem .01rem #eeeeee;
+  border-radius: 50%;
+  margin-bottom: .04rem;
+  margin-right: .3rem;
+  overflow: hidden;
+}
+header .headerTop .headerRight .headerRight2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .headerTop .headerRight .headerRight2 .code {
+  display: block;
+  height: .29rem;
+  width: .29rem;
+  margin: .06rem 0;
+}
+header .headerBottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .headerBottom .headerBottomL {
+  position: relative;
+}
+header .headerBottom .headerBottomL h1 {
+  font-size: .2rem;
+  color: #f46c18;
+  line-height: .6rem;
+  box-sizing: border-box;
+  border-bottom: .05rem solid #f46c18;
+}
+header .headerBottom .headerBottomL .jian {
+  font-size: .11rem;
+  position: absolute;
+  top: 0;
+  right: -26px;
+}
+header .headerBottom .headerBottomL .jian span {
+  padding: .02rem .06rem;
+  background: #f46c18;
+  color: white;
+  border-radius: 0.3rem;
+  position: relative;
+}
+header .headerBottom .headerBottomL .jian span .jiantou {
+  width: 0;
+  height: 0;
+  border: .07rem solid transparent;
+  border-top-color: #f46c18;
+  position: absolute;
+  bottom: -10px;
+  left: 2px;
+}
+header .headerBottom .headerBottomR {
+  margin: .2rem 0;
+  width: .25rem;
+  height: .25rem;
+}
+
+section {
+  height: 100%;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.section {
+  /*height: 8rem;*/
+}
+
+.banner {
+  width: 100%;
+  height: 1.84rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.classify {
+  width: 100%;
+  overflow: hidden;
+  background: white;
+  margin-bottom: .09rem;
+}
+.classify .server {
+  width: 100%;
+}
+.classify .serach {
+  display: block;
+  width: 90%;
+  margin: 0 auto .15rem;
+  height: .45rem;
+  line-height: .45rem;
+  border-radius: .25rem;
+  background: #eeeeee;
+  color: #888888;
+  font-size: .17rem;
+}
+.classify .serach .icon-sousuo {
+  margin: 0 .15rem;
+  color: #ed6e21;
+}
+.classify .classifyBox {
+  font-size: .16rem;
+}
+.classify .classifyBox .classBox {
+  display: block;
+  float: left;
+  line-height: .41rem;
+  padding: .1rem .05514rem 0;
+  color: #37383d;
+}
+.classify .classifyBox .classBox .classImg {
+  width: .61rem;
+  height: .61rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 .01rem .01rem #eee;
+}
+.classify .classifyBox .classBox .classImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.welface {
+  width: 100%;
+  padding: .11rem .13rem;
+  background: white;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.welface a {
+  display: block;
+  float: left;
+  width: 1.69rem;
+  height: .95rem;
+}
+.welface a img {
+  width: 100%;
+  height: 100%;
+}
+.welface a:nth-child(1) {
+  margin-right: .1rem;
+}
+
+.imgBox {
+  margin: .09rem 0 .02rem;
+  display: block;
+}
+
+.welface1 {
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+  padding: .07rem;
+  overflow: hidden;
+}
+.welface1 .WLeft {
+  display: block;
+  width: 1.79rem;
+  height: 2.11rem;
+  margin-right: .05rem;
+  float: left;
+}
+.welface1 .WRight {
+  display: block;
+  width: 1.76rem;
+  height: 1.02rem;
+  float: left;
+}
+.welface1 .WRight1 {
+  margin-bottom: .06rem;
+}
+
+.go {
+  width: 100%;
+  height: 1.5rem;
+}
+.go img {
+  width: 100%;
+  height: 1.5rem;
+}
+
+.publicProduct {
+  display: block;
+  padding: 0.1rem;
+  width: 1.04rem;
+  float: left;
+  position: relative;
+}
+.publicProduct .publicImg {
+  width: 1.04rem;
+  height: 1.04rem;
+}
+.publicProduct .mouldnews {
+  width: 1.04rem;
+  height: .36rem;
+  padding-top: .11rem;
+  text-align: left;
+}
+.publicProduct .mouldnews .moulTitle {
+  display: block;
+  height: .36rem;
+  margin-bottom: .1rem;
+  color: #21292b;
+  font-size: .14rem;
+  line-height: .18rem;
+}
+.publicProduct .moulprice {
+  width: 1.04rem;
+  height: .3rem;
+  position: relative;
+}
+.publicProduct .moulprice .worldoriginal {
+  display: block;
+  color: #ddd;
+  text-decoration: line-through;
+  font-size: .12rem;
+  line-height: .12rem;
+  position: absolute;
+}
+.publicProduct .moulprice .promo-price {
+  display: block;
+  color: #ff712b;
+  font-size: .16rem;
+  line-height: 1.2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.publicProduct .spanAdd {
+  display: block;
+  font-size: .15rem;
+  padding: .01rem .05rem;
+  border: 1px solid #ff712b;
+  color: #ff712b;
+  position: absolute;
+  bottom: .1rem;
+  right: .1rem;
+  z-index: 9;
+}
+
+.day {
+  background: white;
+  overflow: hidden;
+}
+
+.prolist1 {
+  background: white;
+  overflow: hidden;
+  margin-bottom: .1rem;
+}
+
+footer {
+  width: 100%;
+  height: .48rem;
+  padding-top: .04rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-top: .01rem solid #dbdbdb;
+  font-size: .12rem;
+  display: flex;
+}
+footer a {
+  display: flex;
+  margin: 0 .235rem;
+  align-items: center;
+  flex-direction: column;
+  color: #353535;
+}
+footer a i {
+  display: block;
+  font-size: 0.26rem !important;
+  height: .26rem;
+  margin-bottom: 0.02rem;
+}
+
+/*# sourceMappingURL=index.css.map */

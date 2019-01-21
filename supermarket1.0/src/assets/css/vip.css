@@ -1,0 +1,193 @@
+body, p, ul, ol, dl, dd, img, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: #f6f6f6;
+}
+
+html {
+  font-size: 26.67vw;
+}
+
+body {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.vipHeaderBox {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: .45rem;
+  background: rgba(255, 255, 255, 0);
+}
+.vipHeaderBox .vip1img {
+  margin: .1rem 0 0 .1rem;
+  width: .4rem;
+  height: .25rem;
+}
+
+section {
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.header {
+  width: 100%;
+  height: 3rem;
+  background: url("../img/bg.jpg") no-repeat;
+  background-size: 100% 3rem;
+}
+.header .vipHeader {
+  width: 100%;
+  height: 2.8rem;
+  background: transparent;
+  padding: 1.04rem .1rem 0;
+  box-sizing: border-box;
+}
+.header .vipHeader .vipBox {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: .06rem;
+  box-shadow: 0 0 .01rem .01rem #ddd;
+  position: relative;
+}
+.header .vipHeader .vipBox .viplife {
+  position: absolute;
+  top: -.3rem;
+  left: 0;
+  font-size: .2rem;
+  color: white;
+  font-weight: 600;
+}
+.header .vipHeader .vipBox .vipBoxLeft {
+  width: 1.5rem;
+  height: 100%;
+  float: left;
+  border-right: 1px solid #ddd;
+}
+.header .vipHeader .vipBox .vipBoxLeft .jifen {
+  font-size: .18rem;
+  color: #35383f;
+}
+.header .vipHeader .vipBox .vipBoxLeft .jifen h2 {
+  text-indent: .18rem;
+  margin-top: .1rem;
+}
+.header .vipHeader .vipBox .vipBoxLeft .jifen p {
+  text-align: center;
+  line-height: .5rem;
+}
+.header .vipHeader .vipBox .vipBoxLeft .qiandao {
+  font-size: .14rem;
+  color: #666666;
+  text-align: center;
+}
+.header .vipHeader .vipBox .vipBoxLeft .qiandao a {
+  font-size: .18rem;
+  color: white;
+  display: inline-block;
+  border-radius: .03rem;
+  box-shadow: 0 .03rem .02rem .02rem #fd9669;
+  padding: .02rem .1rem;
+  background: #f5791f;
+}
+.header .vipHeader .vipBox .vipBoxLeft .qiandao p {
+  margin-top: .12rem;
+}
+.header .vipHeader .vipBox .vipBoxRight {
+  width: 1.01rem;
+  height: 100%;
+  float: left;
+}
+.header .vipHeader .vipBox .vipBoxRight .vipRightMinBox {
+  display: block;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  color: #35383f;
+  font-size: .17rem;
+}
+.header .vipHeader .vipBox .vipBoxRight .vipRightMinBox .vipMinImg {
+  width: .24rem;
+  height: .29rem;
+  padding-top: .13rem;
+  margin: 0 auto .1rem;
+}
+.header .vipHeader .vipBox .vipBoxRight .vipRightUp {
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+}
+.header .vipHeader .vipBox .right1 {
+  border-right: 1px solid #ddd;
+}
+
+.banner {
+  width: 100%;
+  height: 1.54rem;
+  position: relative;
+}
+
+.activeBox .vipActive {
+  display: block;
+  width: 100%;
+}
+
+.vipActive {
+  display: block;
+  width: 100%;
+}
+
+.vipfixed {
+  width: .8rem;
+  height: .6rem;
+  position: fixed;
+  bottom: 1rem;
+  right: .06rem;
+  z-index: 999999;
+}
+
+footer {
+  width: 100%;
+  height: .48rem;
+  padding-top: .04rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-top: .01rem solid #dbdbdb;
+  font-size: .12rem;
+  display: flex;
+}
+footer a {
+  display: flex;
+  margin: 0 .235rem;
+  align-items: center;
+  flex-direction: column;
+  color: #353535;
+}
+footer a i {
+  display: block;
+  font-size: 0.26rem !important;
+  height: .26rem;
+  margin-bottom: 0.02rem;
+}
+
+/*# sourceMappingURL=vip.css.map */
